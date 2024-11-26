@@ -1,0 +1,282 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+/* Login, Forget And Register */
+.Cointainer
+{
+    background : rgb(255, 255, 255);
+    width: 600px;
+    padding: 25px;
+    margin: 50px auto 0;
+    border-top: 8px solid rgb(255, 193, 7);
+    box-shadow: 0 0 7px 5px rgba(0,0,0,0.5);
+    margin-bottom: 50px;
+}
+.Cointainer h1
+{
+    color: rgb(255, 193, 7);
+    font-size: 30px;
+    line-height: 10px;
+    padding: 30px;
+    text-align: center;
+}
+.form-group
+{
+    width: 90%;
+    position: relative;
+    margin: 20px auto;
+}
+.lock
+{
+    padding: 5px 10px;
+}
+.Name
+{
+    width: 46.3%;
+    padding: 8px 0px 8px 40px;
+} 
+
+.form-group span
+{
+    margin-left: 35px;
+}
+.Same
+{
+    width: 100%;
+    padding: 8px 0px 8px 35px;
+}
+
+.form-group i
+{
+    position: absolute;
+    font-size: 25px;
+    padding: 11px 0px 0px 5px;
+    color: rgb(255, 193, 7);
+}
+.Name, .Same
+{
+    
+    outline: none;
+}
+.Name:hover, .Same:hover
+{
+    background-color: #fafafa;
+}
+.Name:focus, .Same:focus
+{
+    border: 1px solid rgb(255, 193, 7);
+}
+.radio
+{
+    margin-left: 30px;
+}
+.check
+{
+    margin: 10px;
+    position: relative;
+
+}
+
+.button
+{
+    width: 100%;
+    border: 1px solid grey;
+    border-radius: 5px;
+    color: rgb(255, 193, 7);
+    font-weight: 800;
+    cursor: pointer;
+    margin-top: 2em;
+    padding: 1em 0.5em; 
+    box-shadow: 0 0 7px 5px rgba(0,0,0,0.5);
+    display: block;
+}
+.Lbutton
+{
+    margin-left: 5%;
+    width: 90%;
+    border: 1px solid grey;
+    border-radius: 5px;
+    color: rgb(255, 193, 7);
+    font-weight: 800;
+    cursor: pointer;
+    margin-top: 2em;
+    padding: 1em 0.5em; 
+    box-shadow: 0 0 7px 5px rgba(0,0,0,0.5);
+    display: block;
+}
+.form-group a
+{
+    color: rgb(255, 193, 7);
+}
+
+@media (max-width : 470px)
+{
+    .center
+    {
+        width:88%;
+    }
+}
+
+.Cointainer form .Error-Msg
+{
+    margin: 10px;
+    display: block;
+    background: crimson;
+    color: #fff;
+    border-radius: 5px;
+    font-size: 20px;
+} 
+.form-group:Link
+{
+    color: rgb(255, 193, 7);
+}
+
+/* .check::before
+{
+    content: "";
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    margin-right: 5px;
+    vertical-align: -2px;
+    border: 2px solid rgb(255, 193, 7);
+    padding: 6px;
+    background-color: transparent;
+    background-clip: content-box;
+    transition: all 0.2s ease;
+}
+.check::after
+{
+    border-right: 2px solid black;
+    border-top: 2px solid black;
+    content: "";
+    position: absolute;
+    left: 2px;
+    height: 20px;
+    top: 8px;
+    transform: scaleX(-1) rotate(135deg);
+    transform-origin: left top;
+    width: 10px;
+    display: none;
+
+}
+.Chechb
+{
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+} */
+
+/*Text
+{
+    width: 100%;
+    padding: 8px 0px 8px 40px;
+}
+.form-group i
+{
+    position:inherit;
+    font-size: 25px; 
+    color: blue;
+}
+
+
+.Cointainer i
+{
+    position:inherit;
+    font-size: 20px;
+}
+
+.Cointainer .form-group input,.Cointainer .form-group button
+{
+      display: block;
+      padding: 1em 0.5em;
+      width: 100%;
+      margin-top: 1em;
+      margin-bottom: 0.5em;
+      background-color: inherit;
+      border: none;
+      border-bottom: 1px solid #555;
+      color: #000000; 
+}
+.Cointainer .form-group button
+{
+    border: 1px solid grey;
+    border-radius: 5px;
+    color: blue;
+    font-weight: 800;
+    cursor: pointer;
+    margin-top: 2em;
+    padding: 1em; 
+    box-shadow: 0 0 7px 5px rgba(0,0,0,0.5);
+}
+
+@media (max-width : 470px)
+{
+    .center
+    {
+        width:88%;
+    }
+}
+
+.Cointainer form .Error-Msg
+{
+    margin: 10px;
+    display: block;
+    background: crimson;
+    color: #fff;
+    border-radius: 5px;
+    font-size: 20px;
+} */
+
+/* Contact */
+
+.row
+{
+    margin-bottom: 10px;
+}
+
+.Cont
+{
+    
+    display: flex;
+    justify-content: space-around;
+
+}
+.Crow
+{
+    width: 100%;
+    height: 250%;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.img
+{
+  
+    width: 250%;
+    height: 100%;
+    display: inherit;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+    justify-content: space-around;
+    align-items: center;
+}
+.info
+{
+    
+    align-items: center;
+    justify-content: space-evenly;
+    margin-right: 50px;
+    
+}
+/* Footer */
