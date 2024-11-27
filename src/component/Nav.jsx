@@ -18,7 +18,7 @@ function Nav(){
                         <div className="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul className="navbar-nav me-auto mb-2 mb-lg-0">
                             <li className="nav-item">
-                            <Link className="nav-link active" aria-current="page" to="/">Home</Link>
+                            <Link className="nav-link active" aria-current="page" to="/"> <i className="fa-solid fa-house" /> Home</Link>
                             </li>
                             <li className="nav-item">
                             <Link className="nav-link active" aria-current="page" to="/product">Products</Link>
@@ -38,6 +38,17 @@ function Nav(){
                             <input className="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
                             <button className="btn btn-outline-success" type="submit">Search</button>
                         </form>
+                        <ul className="navbar-nav  mb-2 mb-lg-0">
+                        <li className="nav-item">
+                            <Link className="nav-link active" aria-current="page" to="*"><i className="fa-solid fa-user" />
+</Link>
+                            </li>
+                            <li className="nav-item">
+                            <Link className="nav-link active" aria-current="page" to="*"><i className="fa-solid fa-cart-plus" />
+</Link>
+                            </li>
+                        </ul>
+
                         </div>
                     </div>
                     </nav>

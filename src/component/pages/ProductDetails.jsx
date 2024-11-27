@@ -10,7 +10,7 @@ function ProductDetails() {
     <div className="container my-4">
         <div className="row">
             <div className="col-md-3">
-                <Offer/>
+                {/* <Offer/> */}
 
 
             </div>
