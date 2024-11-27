@@ -3,12 +3,12 @@ import { Link } from "react-router-dom"
 function Nav(){
     return (
         <>
-        <div className="nav-container">
+        <div className="nav-container sticky-top">
             <div className="nav-main">               
-                <div className="nav-links sticky-top">
+                <div className="nav-links">
                  <nav className="navbar navbar-expand-lg bg-body-tertiary ">
                     <div className="container-fluid">
-                        <Link className="navbar-brand lobster-regular"to="/">
+                        <Link className="navbar-brand lobster-regular" to="/">
                         <img className="logo-img" src="login_img.jpg" alt="Logo"/> SajiloKinBech 
                         {/* <p className="lobster-regular"> SajiloKinBech</p> */}
                         </Link>
@@ -21,10 +21,13 @@ function Nav(){
                             <Link className="nav-link active" aria-current="page" to="/">Home</Link>
                             </li>
                             <li className="nav-item">
-                            <Link className="nav-link active" aria-current="page" to="/">Products</Link>
+                            <Link className="nav-link active" aria-current="page" to="/product">Products</Link>
                             </li>
                             <li className="nav-item">
-                            <Link className="nav-link active" aria-current="page" to="/">About</Link>
+                            <Link className="nav-link active" aria-current="page" to="/about">About</Link>
+                            </li>
+                            <li className="nav-item">
+                            <Link className="nav-link active" aria-current="page" to="/contact">Contact</Link>
                             </li>
                             <li className="nav-item">
                             <Link className="nav-link active" aria-current="page" to="/login">Login</Link>
@@ -44,9 +47,37 @@ function Nav(){
 
                 </div>
             </div>
+              {/* Sub Nav */}
+
+            <div className="sub-nav-container bg-dark">
+        <nav className="navbar navbar-expand-lg ">
+        <div className="container-fluid ">
+            <div className="sub-nav" id="navbarSupportedContent">
+               <ul className="navbar-nav me-auto mb-2 mb-lg-0 justify-content-evenly">
+                <li className="nav-item"> 
+                    <Link className="nav-link text-light" to={`*`}>Electronics</Link>
+                </li>
+                <li className="nav-item"> 
+                    <Link className="nav-link text-light" to={`*`}>Clothing</Link>
+                </li>
+                <li className="nav-item"> 
+                    <Link className="nav-link text-light" to={`*`}>Accessories</Link>
+                </li>
+                <li className="nav-item"> 
+                    <Link className="nav-link text-light" to={`*`}>Kitchen Products</Link>
+                </li>
+               </ul>
+
+            </div>
+            </div>
+        </nav>
+        </div>
 
 
         </div>
+
+      
+        
         
         </>
     )

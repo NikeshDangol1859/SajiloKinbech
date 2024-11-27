@@ -1,6 +1,16 @@
 
 /* Nav */
 
+a{
+    text-decoration: none;
+    color:black
+}
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
 .logo-img{
     width: 60px;
     height: auto;
@@ -14,6 +24,63 @@
     justify-items: center;
     align-items: center;
   }
+  /* .sub-nav-container{
+    display: flex;
+    width: 100%;
+    height: auto;
+    justify-content: space-between;
+    background-color: black; color: white;
+  } */
+  .sub-nav-container .sub-nav ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+  }
+  .sub-nav-container .sub-nav ul li .link{
+    text-decoration: none;
+    color: white;
+
+  }
+
+  /* Home */
+  .home-sides{
+    width: 98%;
+    height: 100%;
+    margin: auto;
+    margin-top: 10px;
+    
+  }
+  /* .home-side-left{
+    border: 2px solid red;
+  } */
+  .home-side-left .left-text{
+    width: 90%;
+    margin: auto;
+  }  
+  .home-side-left .left-text .left-head{
+    font-size: 20px;
+    background-color: beige;
+    border-radius: 10px;
+    margin-top: 20px;
+    text-align: center;
+    padding: 5px;
+  }
+  
+  .home-side-right .right-text .right-head{
+    font-size: 20px;
+    background-color: #F8F9FA;
+    border-radius: 10px;
+    margin-top: 20px;
+    text-align: center;
+    padding: 5px;
+  }
+
+  
+
+  
+
+
   
 /* Loin css */
 .container-login{
