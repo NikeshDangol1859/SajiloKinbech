@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom"
+import SubNav from "./pages/SubNav"
 
 function Nav(){
     return (
@@ -44,7 +45,7 @@ function Nav(){
 </Link>
                             </li>
                             <li className="nav-item">
-                            <Link className="nav-link active" aria-current="page" to="*"><i className="fa-solid fa-cart-plus" />
+                            <Link className="nav-link active" aria-current="page" to="/cart"><i className="fa-solid fa-cart-plus" />
 </Link>
                             </li>
                         </ul>
@@ -59,30 +60,9 @@ function Nav(){
                 </div>
             </div>
               {/* Sub Nav */}
+              <SubNav/>
 
-            <div className="sub-nav-container bg-dark">
-        <nav className="navbar navbar-expand-lg ">
-        <div className="container-fluid ">
-            <div className="sub-nav" id="navbarSupportedContent">
-               <ul className="navbar-nav me-auto mb-2 mb-lg-0 justify-content-evenly">
-                <li className="nav-item"> 
-                    <Link className="nav-link text-light" to={`*`}>Electronics</Link>
-                </li>
-                <li className="nav-item"> 
-                    <Link className="nav-link text-light" to={`*`}>Clothing</Link>
-                </li>
-                <li className="nav-item"> 
-                    <Link className="nav-link text-light" to={`*`}>Accessories</Link>
-                </li>
-                <li className="nav-item"> 
-                    <Link className="nav-link text-light" to={`*`}>Kitchen Products</Link>
-                </li>
-               </ul>
-
-            </div>
-            </div>
-        </nav>
-        </div>
+            
 
 
         </div>

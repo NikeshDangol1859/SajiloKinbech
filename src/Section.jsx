@@ -7,6 +7,7 @@ import About from './component/pages/About'
 import Contact from './component/pages/Contact'
 import Product from './component/pages/Product'
 import ProductDetails from './component/pages/ProductDetails'
+import Cart from './component/pages/Cart'
 
 function Section() {
   return (
@@ -19,6 +20,7 @@ function Section() {
         <Route path="/contact" element={<Contact/>} />
         <Route path="/login" element={<Login/>} />
         <Route path="/register" element={<Register/>} />
+        <Route path="/cart" element={<Cart/>} />
         <Route path="/ProductDetails" element={<ProductDetails/>} />
     </Routes>
       

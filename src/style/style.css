@@ -3,7 +3,7 @@
 
 a{
     text-decoration: none;
-    color:black
+    color:rgb(255, 255, 255)
 }
 ul{
     list-style: none;
@@ -24,13 +24,9 @@ ul{
     justify-items: center;
     align-items: center;
   }
-  /* .sub-nav-container{
-    display: flex;
-    width: 100%;
-    height: auto;
-    justify-content: space-between;
-    background-color: black; color: white;
-  } */
+  .sub-nav-container{
+    background-color: #398DCD;
+  }
   .sub-nav-container .sub-nav ul{
     list-style: none;
     margin: 0;
