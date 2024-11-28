@@ -83,99 +83,99 @@ ul{
 
   
 /* Loin css */
-.container-login{
-    width: 100%;
-    height: auto;
+.login-container{
+  width: 100%;
+  height: 100vh;  
 }
-.container-login .login-main{
-    display: flex;
-    width: 80%;
-    height: auto;
-    margin: auto;
-    /* border: 1px solid rgb(255, 117, 3); */
-    justify-content: center;
-    align-items: center;
+.login-container .main-login{
+  width: 80%;
+  height: 80%;
+  margin: auto;
+  display: flex;
+  justify-content: center;   
+  align-items: center;       
+  box-sizing: border-box;
 
-    
 }
-.login-container{    
-    width: 400px;
-    height: auto;    
-    box-shadow: 2px 2px 3px rgb(246, 246, 246), 0 0 25px rgb(184, 184, 186), 0 0 5px rgb(219, 219, 219);
-    border-radius: 10px;
-    margin: auto;
-    margin-top: 50px;
-    background:transparent;
-    backdrop-filter: blur(3px);
-    padding: 20px;
-}
-.login-container:hover{
-    box-shadow: 2px 2px 3px rgb(246, 246, 246), 0 0 30px rgb(184, 184, 186), 0 0 10px rgb(219, 219, 219);
+.login-container .main-login .rows{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;   
+  align-items: center;
+  box-sizing: border-box;
 
 }
 
-.login-container h2{ 
-    color: rgb(0, 0, 0);
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 40px;
-    font-weight: bolder;
-    margin-left: 20px;
-
-}   
-
-.login-container .circleuser{
-    width: 80px;
-    height: 80px;
-    background-color: white;
-    margin: auto;
-    margin-top: 20px;
-    border: 1px solid black;
-    border-radius: 50%;
+.login-container .main-login .rows .login-left{
+  width: 40%;
+  height: 100%;
+  display: flex;
+  justify-content: center;   
+  align-items: center;
 
 }
-.login-container .circleuser .img{
-    width: 80px;
-    height: 80px;
-    border-radius: 50%;
+.login-container .main-login .login-left .login-img{
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
 }
+.login-container .main-login .login-left .login-img img{
+  width: 100%;
+  height: auto;
+}
+
 .login-container .login-box input{
-    display: block;
-    width: 80%;
-    margin: auto;
-    background: transparent;
-    color: rgb(0, 0, 0);
+  display: block;
+  width: 100%;
+  margin: auto;
+  background: transparent;
+  color: rgb(0, 0, 0);
 
 
 }
+.login-container .main-login .rows .login-right{
+  width: 40%;
+  justify-content: center;   
+  align-items: center;
+  padding: 10px;
+  border: 2px solid rgb(218, 218, 218);
+
+}
+.login-container h2{ 
+  color:#3A8ECC;  
+  font-size: 28px;
+  font-weight: bolder;
+  margin-left: 20px;
+
+} 
 
 .login-container .login-box label{
-    display: block;
-    color: #7A1FA0;
-    font-size: larger;
-    margin-left: 5px;
-    margin-top: 20px;
+  display: block;
+  color: #7A1FA0;
+  font-size: larger;
+  margin-left: 5px;
+  margin-top: 20px;
 }
 
 .btn-group .log_btns{       
-    width: 45%;         
-    background-color: rgb(65, 155, 57);
-    border-radius: 10px;  
-    text-align: center; 
-    font-size: larger;
-    font-weight: bold; 
-    margin: auto;    
-    margin-top: 20px;   
-    padding: 10px;    
-    color: white;
-    
+  width: 45%;
+  border: none;       
+  background-color: rgb(65, 155, 57);
+  border-radius: 10px;  
+  text-align: center; 
+  font-size: larger;
+  font-weight: bold; 
+  margin: auto;    
+  margin-top: 20px;   
+  padding: 10px;    
+  color: white;
+  
 }
 
-.login-img img{
-    width: 400px;
-    height: 400px;
-}
 
-.btn-group .register_btns{      
+.btn-group .register_btns{
+  border: none;      
     width: 45%;   
     text-align: center;      
     background-color: rgb(255, 251, 3);

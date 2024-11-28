@@ -1,24 +1,25 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 
 function Slidders() {
+  // useEffect(() => {
+  //   const carouselElement = document.querySelector('#carouselExampleAutoplaying');
+  //   if (carouselElement) {
+  //     new bootstrap.Carousel(carouselElement); // Ensure Bootstrap's JS is loaded
+  //   }
+  // }, []);
   return (
     <>
     <div className="container-home">
     <div id="carouselExampleAutoplaying" className="carousel slide" data-bs-ride="carousel">
-    <div className="carousel-indicators">
-      <button type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide-to={0} aria-current="true" aria-label="Slide 1" />
-      <button type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide-to={1} aria-label="Slide 2" />
-      <button type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide-to={2} aria-label="Slide 3" />
-    </div>
-  <div className="carousel-inner">
+    <div className="carousel-inner">
     <div className="carousel-item active">
-      <img src="slide1.jpg" className="d-block w-100" alt="..." />
+      <img src="slide1.jpg" className="d-block w-100" alt="FirstImage" />
     </div>
     <div className="carousel-item">
-      <img src="slide2.jpg" className="d-block w-100" alt="..." />
+      <img src="slide2.jpg" className="d-block w-100" alt="SecondImage" />
     </div>
     <div className="carousel-item">
-      <img src="slide3.jpg" className="d-block w-100" alt="..." />
+      <img src="slide3.jpg" className="d-block w-100" alt="ThirdImage" />
     </div>
   </div>
   <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">

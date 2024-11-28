@@ -40,7 +40,7 @@ function Nav(){
                         </form>
                         <ul className="navbar-nav  mb-2 mb-lg-0">
                         <li className="nav-item">
-                            <Link className="nav-link active" aria-current="page" to="*"><i className="fa-solid fa-user" />
+                            <Link className="nav-link active" aria-current="page" to="/login"><i className="fa-solid fa-user" />
 </Link>
                             </li>
                             <li className="nav-item">
