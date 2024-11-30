@@ -34,7 +34,7 @@ function Home() {
                             <div>
                                 
                                 <div className="card-body">
-                                <Link to={`ProductDetails`}>
+                                <Link to={`ProductDetails`} className='text-dark'>
                                 <img style={{width:"100%",height:"100%"}} src="laptop.jpg" className="card-img-top" alt="Laptop" />                                
                                     <p><b className='fs-2 text-center'> Dell Laptop </b></p>
                                     <p>Description: Laptop</p>

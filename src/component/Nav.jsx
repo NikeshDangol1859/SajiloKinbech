@@ -24,9 +24,9 @@ function Nav(){
                             <li className="nav-item">
                             <Link className="nav-link active" aria-current="page" to="/product">Products</Link>
                             </li>
-                            <li className="nav-item">
+                            {/* <li className="nav-item">
                             <Link className="nav-link active" aria-current="page" to="/about">About</Link>
-                            </li>
+                            </li> */}
                             <li className="nav-item">
                             <Link className="nav-link active" aria-current="page" to="/contact">Contact</Link>
                             </li>

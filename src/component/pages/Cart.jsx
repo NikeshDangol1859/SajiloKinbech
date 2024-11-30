@@ -33,7 +33,7 @@ function Cart() {
 <div className="d-flex justify-contain-around align-items-center mt-4">
   <h4>Total Price: <span className="text-danger">Rs. 120000</span></h4>
   <div>
-    <button className="btn btn-primary" style={{marginLeft:'15px'}}><Link to={'/'}> Continue Shopping</Link> </button>
+  <Link to={'/'}> <button className="btn btn-primary" style={{marginLeft:'15px'}}> Continue Shopping </button> </Link>
     <button className="btn btn-warning" style={{marginLeft: '15px'}}>Buy Now</button>
     <button className="btn btn-danger" style={{marginLeft: '15px'}}>Remove</button>
   </div>
